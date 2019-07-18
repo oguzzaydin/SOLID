@@ -10,7 +10,7 @@ namespace SOLID.I
         void Drive();
     }
 
-    public class Car : IVehicle
+    public partial class Car : IVehicle
     {
         public void Fly()
         {
